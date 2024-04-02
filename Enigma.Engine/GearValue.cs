@@ -1,10 +1,14 @@
-﻿namespace Enigme.Engine
+﻿using System.Collections.ObjectModel;
+using Enigma.Engine.Models;
+
+namespace Enigma.Engine
 {
-    public class GearValue
+    public class GearValue : CoreModel
     {
-        public char Input { get; set; }
-        public int Shift { get; set; }
-        public char Output { get; set; }
+        public char Input { get => Get<char>(); set => Set(value); }
+        public int Shift { get => Get<int>(); set => Set(value); }
+        public char Output { get => Get<char>(); set => Set(value); }
+        public bool IsSelected { get => Get<bool>(); set => Set(value); }
 
         public GearValue(char input, int shift)
         {

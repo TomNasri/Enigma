@@ -8,21 +8,12 @@ using System.Windows.Media;
 
 namespace Enigma.View.Converters
 {
-    public class GearValueToColorConverter : IValueConverter
+    public class GearValueToStrokeThiknessConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             var v = value as GearValue;
-            if (v.IsSelected)
-                return Brushes.Red;
-
-            switch ((v.Input - 'A') % 3)
-            {
-                case 0: return Brushes.LightBlue;
-                case 1: return Brushes.LightGreen;
-                case 2: return Brushes.LightSalmon;
-            }
-            return Brushes.Black;
+            return v.IsSelected ? 3 : 1;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Enigme.Engine
+namespace Enigma.Engine
 {
     public class EnigmaEngine
     {

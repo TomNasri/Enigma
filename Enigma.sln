@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enigma.View", "Enigma.View\Enigma.View.csproj", "{486C46BD-ABD3-48F7-81C2-02B1AE92941A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enigma.Launcher", "Enigma.Launcher\Enigma.Launcher.csproj", "{985B61ED-3A30-40D0-9EBD-4976FF38A9CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enigme.Engine", "Enigme.Engine\Enigme.Engine.csproj", "{F7E57CE5-BF4B-44E9-9D34-D8B66CC28131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enigma.Engine", "Enigma.Engine\Enigma.Engine.csproj", "{793DF7A8-FA7E-4F94-8B1C-23EE946C0A3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{985B61ED-3A30-40D0-9EBD-4976FF38A9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{985B61ED-3A30-40D0-9EBD-4976FF38A9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{985B61ED-3A30-40D0-9EBD-4976FF38A9CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7E57CE5-BF4B-44E9-9D34-D8B66CC28131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7E57CE5-BF4B-44E9-9D34-D8B66CC28131}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7E57CE5-BF4B-44E9-9D34-D8B66CC28131}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7E57CE5-BF4B-44E9-9D34-D8B66CC28131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793DF7A8-FA7E-4F94-8B1C-23EE946C0A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793DF7A8-FA7E-4F94-8B1C-23EE946C0A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793DF7A8-FA7E-4F94-8B1C-23EE946C0A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793DF7A8-FA7E-4F94-8B1C-23EE946C0A3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
